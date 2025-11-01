@@ -26,3 +26,12 @@ T(y)=\mathrm{oddize}(3y+1)=\mathrm{oddize}(3D-1),\quad
 Hence the **two-move** simulation \(L(D)\xrightarrow{\mathrm{LH}}M(D)\xrightarrow{\mathrm{SEAM}}L\big(\Sigma(D)\big)\) matches one odd step.
 
 ## Repo layout (suggested)
+
+
+
+## Quick reproduce
+```bash
+# Python 3.10+
+python code/identity_check.py --max-odd 200000
+# prints: "OK identities up to ...", sample δ(y) bounds, etc.
+
