@@ -1,5 +1,7 @@
 # Collatz via a Glued Grid and a Seam Automaton
 
+[![DOI](https://zenodo.org/badge/1087917470.svg)](https://doi.org/10.5281/zenodo.17504109)
+
 **Status**: preprint-style research notes (community review invited)  
 **Author**: Sgo Gobeaux  
 **Repo**: code + figures + minimal scripts for identity checks and min–mean insights
