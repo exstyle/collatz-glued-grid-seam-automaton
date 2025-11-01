@@ -37,3 +37,27 @@ Hence the **two-move** simulation \(L(D)\xrightarrow{\mathrm{LH}}M(D)\xrightarro
 python code/identity_check.py --max-odd 200000
 # prints: "OK identities up to ...", sample δ(y) bounds, etc.
 
+
+## Quick reproduce
+
+# 1) Glued-grid identities (ψ∘T = Σ∘ψ)
+python code/glued_grid_checker.py --max-odd 200000
+
+# 2) Generate Σ_b edges (small b)
+python code/gen_sigma_edges.py --b 10 --min \
+  --out data/sigma_b10_edges.min.csv --states data/sigma_b10_states.csv
+
+# 3) Min–mean (Howard/Karp)
+python code/howard_minmean.py data/sigma_b10_edges.min.csv \
+  --src src --dst dst --weight w --progress
+
+# 4) Potential / dual checks
+python code/potential_checker.py --edges data/sigma_b10_edges.min.csv
+python code/dual_check.py        --edges data/sigma_b10_edges.min.csv
+
+
+# Data notes
+- sigma_b9_edges.min.csv : Σ_b (b=9), edges prunés pour min–mean rapide (colonnes: src,dst,w).
+- sigma_b9_states.csv    : états (résidus mod 3^b).
+- Les versions *complètes* (edges.csv non-min) sont publiées en Release/Zenodo (voir README).
+
