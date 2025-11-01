@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Collatz via a Glued Grid and a Seam Automaton"
+authors:
+  - family-names: Gobeaux
+    given-names: Sgo
+    # orcid: "https://orcid.org/<TON-ORCID-OPTIONNEL>"
+version: "<v1.0.0>"             # la version de ta release GitHub
+date-released: "<2025-11-02>"    # AAAA-MM-JJ (date de la release)
+doi: "<10.5281/zenodo.17504109>"  # de préférence le DOI "concept" Zenodo (stable)
+repository-code: "https://github.com/exstyle/collatz-glued-grid-seam-automaton"
+url: "https://doi.org/<10.5281/zenodo.17504109>"
+keywords:
+  - Collatz
+  - glued grid
+  - seam automaton
+  - min-mean cycle
+  - Lyapunov
+license: MIT
+
+preferred-citation:
+  type: software
+  title: "Collatz via a Glued Grid and a Seam Automaton"
+  authors:
+    - family-names: Gobeaux
+      given-names: Sgo
+  year: 2025
+  version: "<v1.0.0>"
+  doi: "<10.5281/zenodo.17504110>"    # DOI de la release précise (optionnel mais utile)
+  url: "https://doi.org/<10.5281/zenodo.17504110>"
