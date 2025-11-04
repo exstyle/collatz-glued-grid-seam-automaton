@@ -1,0 +1,5 @@
+b,nodes,edges,mu_aug,epsilon,delta_to_log2_4_over_3,elapsed_s,min_red,max_red,edges_csv,h_csv
+9,19683,39366,-0.415025282316,0.415025282316,1.221696e-05,0.03,-1.241e-09,1.415e+00,data\sigma_b9_aug.csv,data\h_b9_howard.csv
+10,59049,118098,-0.415033427153,0.415033427153,4.072126e-06,0.10,-1.379e-10,1.415e+00,data\sigma_b10_aug.csv,data\h_b10_howard.csv
+11,177147,354294,-0.415036141925,0.415036141925,1.357353e-06,0.37,-1.532e-11,1.415e+00,data\sigma_b11_aug.csv,data\h_b11_howard.csv
+12,531441,1062882,-0.415037046830,0.415037046830,4.524487e-07,1.54,-1.703e-12,1.415e+00,data\sigma_b12_aug.csv,data\h_b12_howard.csv
